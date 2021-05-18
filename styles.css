@@ -6,11 +6,11 @@ body {
 }
 
 #background {
+  align-items: center;
   background-size: contain;
   display: flex;
-  align-items: center;
-  justify-content: center;
   height: 600px;
+  justify-content: center;
   width: 600px;
 }
 
