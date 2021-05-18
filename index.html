@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section id="background">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg
+          width="500"
+          height="500"
+          id="spot"
+          style="--body-color: #fc0"
+          version="1.1"
+          viewBox="0 0 132.29 132.29"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:cc="http://creativecommons.org/ns#"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        >
+          <g
+            class="front left"
+            transform="matrix(2.3543 0 0 2.3543 -19.128 -82.317)"
+          >
+            <path
+              class="lower"
+              d="m160 266-2 2-1 2 8 9 17 11 13 16v14l2 3h6l3-5v-3l-20-26-6-5-11-9 1-5zm39 43 4 6h-3l-3 1v-6z"
+              transform="scale(.26458)"
+            />
+            <path
+              class="upper"
+              d="m53.975 59.531-10.319 9.2604-1.0583 3.175 0.52917 1.0583h1.0583l1.3229-2.6458 10.848-8.4667v-1.0583l-1.3229-1.3229z"
+            />
+          </g>
+          <g
+            class="rear left"
+            transform="matrix(2.3543 0 0 2.3543 -84.215 -82.317)"
+          >
+            <path
+              class="lower"
+              d="m160 266-2 2-1 2 8 9 17 11 13 16v14l2 3h6l3-5v-3l-20-26-6-5-11-9 1-5zm39 43 4 6h-3l-3 1v-6z"
+              transform="scale(.26458)"
+            />
+            <path
+              class="upper"
+              d="m53.975 59.531-10.319 9.2604-1.0583 3.175 0.52917 1.0583h1.0583l1.3229-2.6458 10.848-8.4667v-1.0583l-1.3229-1.3229z"
+            />
+          </g>
+          <path
+            class="body"
+            d="m123.56 72.496 7.1438-16.669-15.081-3.9688h-76.994l-15.875 3.9688 1.5875 15.875h31.75l47.625 2.3812z"
+            style="fill: var(--body-color)"
+          />
+          <g class="body-details" fill="#333">
+            <path
+              d="m46.567 71.702-0.79375-19.844h-7.1438l-7.1438 1.5875 0.79375 18.256z"
+            />
+            <path
+              d="m105.83 51.858-2.4665 22.208 0.35037 0.01705 14.469-1.1581 4.5811-9.1607v-10.026l-7.1438-1.8805z"
+            />
+            <path
+              d="m105.3 61.383h-27.781l-7.1438-3.175h-27.781v-0.79375h7.9375l3.175-2.3812h13.494l8.7312 3.9687h29.369z"
+            />
+          </g>
+          <g class="back right" transform="matrix(3 0 0 3 -122.5 -126.74)">
+            <path
+              class="lower"
+              d="m160 266-2 2-1 2 8 9 17 11 13 16v14l2 3h6l3-5v-3l-20-26-6-5-11-9 1-5zm39 43 4 6h-3l-3 1v-6z"
+              fill="#333"
+              transform="scale(.26458)"
+            />
+            <path
+              class="upper"
+              d="m53.975 59.531-10.319 9.2604-1.0583 3.175 0.52917 1.0583h1.0583l1.3229-2.6458 10.848-8.4667v-1.0583l-1.3229-1.3229z"
+              style="fill: var(--body-color)"
+            />
+          </g>
+          <g class="front right" transform="matrix(3 0 0 3 -44.715 -126.74)">
+            <path
+              class="lower"
+              transform="scale(.26458)"
+              d="m160 266-2 2-1 2 8 9 17 11 13 16v14l2 3h6l3-5v-3l-20-26-6-5-11-9 1-5zm39 43 4 6h-3l-3 1v-6z"
+              fill="#333"
+            />
+            <path
+              class="upper"
+              d="m53.975 59.531-10.319 9.2604-1.0583 3.175 0.52917 1.0583h1.0583l1.3229-2.6458 10.848-8.4667v-1.0583l-1.3229-1.3229z"
+              style="fill: var(--body-color)"
+            />
+          </g>
+        </svg>
+      </section>
+      <fieldset>
+        <legend>Body color</legend>
+        <label class="body-color" style="--color: hsl(0deg 80% 45%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Red</span>
+        </label>
+        <label class="body-color" style="--color: hsl(30deg 90% 50%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Orange</span>
+        </label>
+        <label class="body-color" style="--color: hsl(48deg 100% 50%)">
+          <input class="v-h" checked type="radio" name="body" />
+          <span class="v-h">Yellow</span>
+        </label>
+        <label class="body-color" style="--color: hsl(120deg 80% 40%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Green</span>
+        </label>
+        <label class="body-color" style="--color: hsl(210deg 80% 40%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Blue</span>
+        </label>
+        <label class="body-color" style="--color: hsl(280deg 80% 40%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Purple</span>
+        </label>
+        <label class="body-color" style="--color: hsl(0deg 0% 5%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Black</span>
+        </label>
+        <label class="body-color" style="--color: hsl(0deg 0% 50%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">Gray</span>
+        </label>
+        <label class="body-color" style="--color: hsl(0deg 0% 90%)">
+          <input class="v-h" type="radio" name="body" />
+          <span class="v-h">White</span>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Background</legend>
+        <label class="background" style="--background: url(/images/stage.png)">
+          <input class="v-h" type="radio" name="background" />
+          <span class="v-h">Stage</span>
+        </label>
+        <label class="background" style="--background: url(/images/dirt.png)">
+          <input class="v-h" type="radio" name="background" />
+          <span class="v-h">dirt</span>
+        </label>
+        <label class="background" style="--background: url(/images/construction.png)">
+          <input class="v-h" type="radio" name="background" />
+          <span class="v-h">Construction</span>
+        </label>
+      </fieldset>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
